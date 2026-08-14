@@ -1,0 +1,51 @@
+# Private input data and derived outputs
+data/
+datasets/
+raw_data/
+outputs/
+results/
+artifacts/
+checkpoints/
+models/
+logs/
+
+# Model weights and serialized objects
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.pickle
+*.joblib
+*.onnx
+
+# Common experimental data formats
+*.csv
+*.csv.gz
+*.tsv
+*.parquet
+*.feather
+*.npy
+*.npz
+*.txt
+!requirements.txt
+!requirements-baselines.txt
+*.log
+
+# Notebook and rendered-document artifacts
+*.ipynb
+*.pdf
+*.docx
+*.pptx
+*.png
+*.jpg
+*.jpeg
+
+# Local environments and secrets
+.env
+.env.*
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
